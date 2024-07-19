@@ -30,8 +30,7 @@ Smart pointers (std::unique_ptr and std::shared_ptr) are used for memory managem
 7. Random Number Generation
 The game uses random number generation to decide which room the player will enter next and to generate random events.
 
-- How to Play
-Clone the repository
+## How to Play
 
 Compile the game:
 
@@ -39,8 +38,9 @@ g++ -std=c++17 main.cpp -o TextAdventureGame
 ./TextAdventureGame
 
 
-Game Flow
-Explore the next room: Move to a randomly selected room (treasure room or monster room).
-Check inventory: View the items you have collected.
-Use item: Use an item from your inventory to aid in your adventure.
-Quit: Exit the game.
+### Game Flow
+
+- Explore the next room: Move to a randomly selected room (treasure room or monster room).
+- Check inventory: View the items you have collected.
+- Use item: Use an item from your inventory to aid in your adventure.
+- Quit: Exit the game.
